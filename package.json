@@ -1,0 +1,22 @@
+{
+  "name": "one-material-theme",
+  "author": "Vitaliy Vekslyer",
+  "displayName": "One Material Theme",
+  "description": "A theme for the times you need to focus. Inspired by Material and One Dark themes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Material Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/one-material-color-theme.json"
+      }
+    ]
+  }
+}
