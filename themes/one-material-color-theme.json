@@ -230,7 +230,8 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f47580"
+				// "foreground": "#f47580"
+				"foreground": "#65D4FF"
 			}
 		},
 		{
@@ -312,7 +313,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FEC865"
 			}
 		},
 		{
@@ -396,6 +397,27 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "Vue Script/Template/Style Tag",
+			"scope": [
+				"entity.name.tag.template.html.vue",
+				"entity.name.tag.script.html.vue",
+				"entity.name.tag.style.html.vue"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			// Doesn't work yet :(
+			"name": "Vue Component tag",
+			"scope": [
+				"meta.tag.other.unrecognized.html.derivative"
+			],
+			"settings": {
 				"foreground": "#FFCB6B"
 			}
 		},
