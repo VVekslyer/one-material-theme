@@ -1,5 +1,12 @@
 {
-	"name": "My Theme",
+	"name": "One Material",
+	"type": "dark",
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+	  "variable.defaultLibrary": {
+		  "foreground": "#7AD9FF"
+	  }
+	},
 	"colors": {
 	"activityBar.background": "#191D21",
     "activityBar.foreground": "#d7dae0",
@@ -15,7 +22,7 @@
     "diffEditor.insertedTextBackground": "#00809b33",
     "dropdown.background": "#1e2227",
     "dropdown.border": "#1e2227",
-    "editor.background": "#23272e",
+    "editor.background": "#24292e",
     "editor.findMatchBackground": "#42557b",
     "editor.findMatchBorder": "#457dff",
     "editor.findMatchHighlightBackground": "#6199ff2f",
@@ -94,7 +101,7 @@
     "settings.headerForeground": "#fff",
     "sideBar.background": "#1e2227",
     "sideBar.foreground": "#abb2bf",
-    "sideBarSectionHeader.background": "#23272e",
+    "sideBarSectionHeader.background": "#24292e",
     "sideBarSectionHeader.foreground": "#abb2bf",
     "statusBar.background": "#1e2227",
     "statusBar.debuggingBackground": "#cc6633",
@@ -141,7 +148,7 @@
     "titleBar.inactiveForeground": "#6B717D",
     "tree.indentGuidesStroke": "#ffffff1d",
     "walkThrough.embeddedEditorBackground": "#2e3440",
-    "welcomePage.buttonHoverBackground": "#404754"
+    "welcomePage.buttonHoverBackground": "#404754",
 	},
 	"tokenColors": [
 		{
@@ -160,7 +167,8 @@
 			"scope": [
 				"variable",
 				"string constant.other.placeholder",
-				"text.html.derivative"
+				"text.html.derivative",
+				"entity.name.imba"
 			],
 			"settings": {
 				"foreground": "#e9e9e9"
@@ -209,7 +217,6 @@
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.definition.block",
-				"",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
@@ -223,15 +230,27 @@
 			}
 		},
 		{
+			"name": "Tag signs",
+			"scope": [
+				"punctuation.section.tag.open.html",
+				"punctuation.section.tag.close.html",
+				"punctuation.section.tag.open.imba",
+				"punctuation.section.tag.close.imba"
+			],
+			"settings": {
+				"foreground": "#d9d9d9"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"markup.deleted.git_gutter",
 			],
 			"settings": {
 				// "foreground": "#f47580"
-				"foreground": "#65D4FF"
+				"foreground": "#7AD9FF"
 			}
 		},
 		{
@@ -310,7 +329,10 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"entity.name.tag.imba",
+				"entity.name.tag.special.imba"
+				
 			],
 			"settings": {
 				"foreground": "#FEC865"
