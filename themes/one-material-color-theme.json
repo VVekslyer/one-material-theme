@@ -22,7 +22,7 @@
     "diffEditor.insertedTextBackground": "#00809b33",
     "dropdown.background": "#1e2227",
     "dropdown.border": "#1e2227",
-    "editor.background": "#24292e",
+    "editor.background": "#24282c",
     "editor.findMatchBackground": "#42557b",
     "editor.findMatchBorder": "#457dff",
     "editor.findMatchHighlightBackground": "#6199ff2f",
@@ -101,7 +101,7 @@
     "settings.headerForeground": "#fff",
     "sideBar.background": "#1e2227",
     "sideBar.foreground": "#abb2bf",
-    "sideBarSectionHeader.background": "#24292e",
+    "sideBarSectionHeader.background": "#24282c",
     "sideBarSectionHeader.foreground": "#abb2bf",
     "statusBar.background": "#1e2227",
     "statusBar.debuggingBackground": "#cc6633",
@@ -134,7 +134,7 @@
     "terminal.ansiRed": "#e05561",
     "terminal.ansiWhite": "#d7dae0",
     "terminal.ansiYellow": "#d18f52",
-    "terminal.background": "#23272e",
+    "terminal.background": "#24282c",
     "terminal.border": "#3e4452",
     "terminal.foreground": "#abb2bf",
     "terminal.selectionBackground": "#abb2bf30",
@@ -168,7 +168,8 @@
 				"variable",
 				"string constant.other.placeholder",
 				"text.html.derivative",
-				"entity.name.imba"
+				"entity.name.imba",
+				"meta.jsx.children.tsx"
 			],
 			"settings": {
 				"foreground": "#e9e9e9"
