@@ -5,7 +5,10 @@
 	"semanticTokenColors": {
 	  "variable.defaultLibrary": {
 		  "foreground": "#7AD9FF"
-	  }
+	  },
+	  "parameter": {
+		  "foreground": "#FFA657"
+	  },
 	},
 	"colors": {
 	"activityBar.background": "#191D21",
@@ -204,6 +207,7 @@
 				"keyword.control.default.tsx",
 				"keyword.control.export.jsx",
 				"keyword.control.export.tsx",
+				"entity.name.function.attribute.prisma"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -243,6 +247,13 @@
 			}
 		},
 		{
+			"name": "Imba Instance",
+			"scope": "variable.other.instance.imba",
+			"settings": {
+				"foreground": "#E8E09D"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
@@ -264,7 +275,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#6AB9FE"
 			}
 		},
 		{
@@ -303,6 +314,13 @@
 			],
 			"settings": {
 				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Prisma Parameter",
+			"scope": "variable.parameter.key.prisma",
+			"settings": {
+				"foreground": "#FFA657"
 			}
 		},
 		{
