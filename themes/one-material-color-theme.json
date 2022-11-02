@@ -272,10 +272,11 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"support.constant.constant.prisma"
 			],
 			"settings": {
-				"foreground": "#6AB9FE"
+				"foreground": "#66B8FF"
 			}
 		},
 		{
