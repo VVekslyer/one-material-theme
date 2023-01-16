@@ -203,6 +203,8 @@
 				"keyword",
 				"storage.type",
 				"storage.modifier",
+				"keyword.control.default.js",
+				"keyword.control.default.ts",
 				"keyword.control.default.jsx",
 				"keyword.control.default.tsx",
 				"keyword.control.export.jsx",
@@ -355,8 +357,7 @@
 				"markup.changed.git_gutter",
 				"support.type.sys-types",
 				"entity.name.tag.imba",
-				"entity.name.tag.special.imba"
-				
+				"entity.name.tag.special.imba",
 			],
 			"settings": {
 				"foreground": "#FEC865"
