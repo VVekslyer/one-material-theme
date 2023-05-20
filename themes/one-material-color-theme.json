@@ -234,7 +234,12 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"keyword.other.DML.sql",
+				"keyword.other.sql",
+				"keyword.other.alias.sql",
+				"keyword.other.DDL.create.II.sql",
+				"keyword.other.order.sql"
 			],
 			"settings": {
 				"foreground": "#7ECCEB"
