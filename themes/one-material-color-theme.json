@@ -166,6 +166,15 @@
 			}
 		},
 		{
+			"name": "entity.name.function.preprocessor.c",
+			"scope": [
+				"entity.name.function.preprocessor.c"
+			],
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
 			"name": "Variables",
 			"scope": [
 				"variable",
